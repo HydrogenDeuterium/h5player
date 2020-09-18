@@ -4,6 +4,10 @@
 - [ ] A->顺时针旋转90度
 - [ ] Enter,shift+Enter->None
 
+## 参考
+本库太复杂，参考另外简单一些的：
+- https://greasyfork.org/zh-CN/scripts/27614-html5%E6%92%AD%E6%94%BE%E5%99%A8%E5%A2%9E%E5%BC%BA%E6%8F%92%E4%BB%B6
+- https://greasyfork.org/zh-CN/scripts/30545-%E8%A7%86%E9%A2%91%E7%BD%91html5%E6%92%AD%E6%94%BE%E5%B0%8F%E5%B7%A5%E5%85%B7
 
 ## 特性
 * 兼容广泛，所有存在video标签的网页均支持 即使嵌在 iframe、shadowdom下均可兼容
