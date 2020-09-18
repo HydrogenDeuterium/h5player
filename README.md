@@ -1,7 +1,9 @@
-# h5player for tampermonkey
-网页播放器增强脚本  
-项目地址：[https://github.com/xxxily/h5player](https://github.com/xxxily/h5player)  
-脚本安装地址：[https://greasyfork.org/scripts/381682](https://greasyfork.org/scripts/381682)
+## 不满意原库的快捷键设置，准备自己魔改
+- [ ] F->Fullscreen,shift+F->web Fullscreen
+- [ ] S，D->上一帧，下一帧
+- [ ] A->顺时针旋转90度
+- [ ] Enter,shift+Enter->None
+
 
 ## 特性
 * 兼容广泛，所有存在video标签的网页均支持 即使嵌在 iframe、shadowdom下均可兼容
@@ -70,17 +72,17 @@ PS：本脚基于：[HTML5播放器增强插件](https://greasyfork.org/users/49
 | shift+X | 缩小视频画面 -0.1 |
 | shift+Z | 恢复视频画面 |
 | shift+P | 进入或退画中画功能 |
-| shift+S | 截图，截取当前画面并保存 |
+| shift+S | 截图，截取当前画面并保存 |拟移除
 | shift+R | 启用或禁止自动恢复播放进度功能 |
 | shift+→ | 画面向右移动10px |
 | shift+← | 画面向左移动10px |
 | shift+↑ | 画面向上移动10px |
 | shift+↓ | 画面向下移动10px |
-| Enter | 进入全屏 |
-| shift+Enter | 进入网页全屏 |
+| Enter | 进入全屏 |拟移动到F
+| shift+Enter | 进入网页全屏 |同上
 | N | 下一个/集视频（仅部分网站支持） |
-| D | 上一帧 (截图时进行微调以找到质量最佳的一帧) |
-| F | 下一帧 (不支持netflix，因为快捷键冲突)|
+| D | 上一帧 (截图时进行微调以找到质量最佳的一帧) |->s
+| F | 下一帧 (不支持netflix，因为快捷键冲突)|->D
 | E | 亮度增加% |
 | W | 亮度减少% |
 | T | 对比度增加% |
@@ -92,7 +94,7 @@ PS：本脚基于：[HTML5播放器增强插件](https://greasyfork.org/users/49
 | K | 模糊增加 1 px |
 | J | 模糊减少 1 px |
 | Q | 图像复位 |
-| S | 画面旋转 90 度 |
+| S | 画面旋转 90 度 |->A
 
 ## 更新说明：
 
